@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+/* Kart start */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.card-list {
+  width: 90%;
+  max-width: 400px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 1.25rem;
+  position: relative;
+  transition: 0.15s ease-in;
+  margin: 20px -15px 8px 18px;
+}
+.card:hover,
+.card:focus-within {
+  box-shadow: 0 0 0 2px #16c79a, 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+  transform: translatey(-5px);
+}
+
+.card-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-header p {
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.25;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: inherit;
+  will-change: transform;
+}
+
+.icon-button {
+  border: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 78px;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 17px;
+  transition: 0.25s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+  color: #059c16;
+}
+
+.card-footer {
+  margin-top: 1.25rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  color: #787878;
+}
+/* Kart end */
+
+/* Header start */
+
+.baslik {
+  display: flex;
+  justify-content: center;
+  font-size: 52px;
+  padding-top: 57px;
+}
+
+.button-area {
+  margin: 30px 0px 30px 21px;
+}
+
+.buton-stil {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 9px 9px;
+  margin: 2px;
+}
+
+.active {
+  background-color: black;
+
+  color: white;
+}
+
+/* header end */
